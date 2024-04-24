@@ -1,4 +1,255 @@
-<html>
-    <h1>Juan's Portfolio</h1>
-    <img style="width:100%;" src="./bioPic7.jpg" />
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tu archivo de CSS personalizado -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Mi Portafolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#inicio">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#proyectos">Proyectos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Inicio -->
+<section id="inicio" class="py-5 text-center">
+  <div class="container">
+    <h2 class="mb-4">¡Welcome to my portfolio!</h2>
+    <p class="lead">Here you will find information about me and my projects.</p>
+  </div>
+</section>
+
+<!-- Sobre Mí -->
+<section id="sobre-mi" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <!-- Columna izquierda: Video embebido de YouTube -->
+        <div class="col-md-6">
+          <h2 class="mb-4">About me</h2>
+          <!-- Inserta aquí el código de tu video embebido de YouTube -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mHVFKOiVXjw" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- Columna derecha: Información personal -->
+        <div class="col-md-6 align-self-center">
+            <p class="text-center">I'm <span style="font-size: 1.2em;"><em>Juan Oscar Murillo</em></span>, fullstack developer, graduated from Universidad Andina del Cusco. I'm from Cusco, Perú.</p>
+          <p class="text-center">Want to know more about me?</p>
+          <!-- Enlaces a tus redes sociales -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Proyectos -->
+<section id="proyectos" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Git hub Projects</h2>
+    <div class="row">
+    <!--Pacman-->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="img-container">
+            <img src="./images/Pac-Man-Cover.png" class="card-img-top img-fluid" alt="Pacman">
+          </div>
+          <!-- Contenido de la tarjeta -->
+          <div class="card-body">
+            <h5 class="card-title">Pac Man</h5>
+            <p class="card-text">Project created to test my abilities with javascript performing a simple pacman animation</p>
+          </div>
+          <!-- Pie de la tarjeta -->
+          <div class="card-footer text-right">
+            <a href="https://granjalf.github.io/pacman/" class="btn btn-primary">Project page</a>
+          </div>
+        </div>
+      </div>
+    <!--MapBox-->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="img-container">
+            <img src="./images/geolocation-feature.png" class="card-img-top img-fluid" alt="MapBox">
+          </div>
+          <!-- Contenido de la tarjeta -->
+          <div class="card-body">
+            <h5 class="card-title">Map Box</h5>
+            <p class="card-text">Little project using MapBox as a GeoLocalization tool to find 100 schools in Cusco, my city.</p>
+          </div>
+          <!-- Pie de la tarjeta -->
+          <div class="card-footer text-right">
+            <a href="https://granjalf.github.io/mapschooltracker" class="btn btn-primary">Project page</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="img-container">
+            <img src="./images/eye.jpeg" class="card-img-top img-fluid" alt="EyeTracking">
+          </div>
+          <!-- Contenido de la tarjeta -->
+          <div class="card-body">
+            <h5 class="card-title">Eye tracking</h5>
+            <p class="card-text">Little project to animate shapes in javascript to follow the mouse position.</p>
+          </div>
+          <!-- Pie de la tarjeta -->
+          <div class="card-footer text-right">
+            <a href="https://granjalf.github.io/eye" class="btn btn-primary">Project page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--fila 2-->
+    <div class="row">
+        <!--Pacman-->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="img-container">
+                <img src="./images/tic-tac-toe.png" class="card-img-top img-fluid" alt="Tictactoe">
+              </div>
+              <!-- Contenido de la tarjeta -->
+              <div class="card-body">
+                <h5 class="card-title">Tic Tac Toe</h5>
+                <p class="card-text">A simple project created with JS to play tic tac toe.</p>
+              </div>
+              <!-- Pie de la tarjeta -->
+              <div class="card-footer text-right">
+                <a href="https://granjalf.github.io/tic-tac-toe" class="btn btn-primary">Project page</a>
+              </div>
+            </div>
+          </div>
+        <!--MapBox-->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="img-container">
+                <img src="./images/atm.png" class="card-img-top img-fluid" alt="atm">
+              </div>
+              <!-- Contenido de la tarjeta -->
+              <div class="card-body">
+                <h5 class="card-title">ATM Exercise</h5>
+                <p class="card-text">An ATM emulator that allows to withdraw and deposit money, login and other features.</p>
+              </div>
+              <!-- Pie de la tarjeta -->
+              <div class="card-footer text-right">
+                <a href="https://granjalf.github.io/simple-atm-exercise/" class="btn btn-primary">Project page</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="img-container">
+                <img src="./images/spa-exercise.png" class="card-img-top img-fluid" alt="SinglePageApplicationExercise">
+              </div>
+              <!-- Contenido de la tarjeta -->
+              <div class="card-body">
+                <h5 class="card-title">SPA - Exercise</h5>
+                <p class="card-text">A Single Page Exercise, using the benefits of react and react routing for its development.</p>
+              </div>
+              <!-- Pie de la tarjeta -->
+              <div class="card-footer text-right">
+                <a href="https://granjalf.github.io/spa-example/" class="btn btn-primary">Project page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!--fila 3-->
+    <div class="row">
+        <!--Pacman-->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="img-container">
+                <img src="./images/juan-user-app.png" class="card-img-top img-fluid" alt="JuanUserApp">
+              </div>
+              <!-- Contenido de la tarjeta -->
+              <div class="card-body">
+                <h5 class="card-title">Juan User App</h5>
+                <p class="card-text">A simple login project.</p>
+              </div>
+              <!-- Pie de la tarjeta -->
+              <div class="card-footer text-right">
+                <a href="https://granjalf.github.io/juan-user-app" class="btn btn-primary">Project page</a>
+              </div>
+            </div>
+          </div>
+        <!--MapBox-->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="img-container">
+                <img src="./images/anime-fetch-data.png" class="card-img-top img-fluid" alt="FetchAnimeData">
+              </div>
+              <!-- Contenido de la tarjeta -->
+              <div class="card-body">
+                <h5 class="card-title">Fetch Anime Data</h5>
+                <p class="card-text">A simple react project to obtain images and data from an API call.</p>
+              </div>
+              <!-- Pie de la tarjeta -->
+              <div class="card-footer text-right">
+                <a href="https://granjalf.github.io/fetch_anime_data" class="btn btn-primary">Project page</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact me</h2>
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        Under construction
+        <!-- Formulario de contacto o simplemente tu dirección de correo electrónico -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS (jQuery is required) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // Espera a que se cargue el documento
+    $(document).ready(function() {
+      // Obtiene la altura máxima entre todos los card bodies
+      var maxHeight = 0;
+      $('.card-body').each(function() {
+        var height = $(this).height();
+        if (height > maxHeight) {
+          maxHeight = height;
+        }
+      });
+      // Aplica la altura máxima a todos los card bodies
+      $('.card-body').height(maxHeight);
+    });
+  </script>
+</body>
 </html>

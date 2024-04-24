@@ -1,0 +1,4 @@
+.img-container {
+    height: 200px; /* Altura fija de 300px */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se extienda más allá de la altura especificada */
+  }
