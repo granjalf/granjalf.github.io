@@ -19,17 +19,34 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          My Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <!-- Dropdown links for projects -->
+          <a class="dropdown-item" href="pacman.html">Pac man</a>
+          <a class="dropdown-item" href="mapbox.html">Map box</a>
+          <a class="dropdown-item" href="eyes.html">Eye tracking</a>
+          <a class="dropdown-item" href="tictactoe.html">Tic tac toe</a>
+          <a class="dropdown-item" href="atm.html">ATM Exeercise</a>
+          <a class="dropdown-item" href="spa-example.html">SPA Exercise</a>
+          <a class="dropdown-item" href="juan-user-app.html">Juan User App</a>
+          <a class="dropdown-item" href="fetch-anime-data.html">Fetch anime data</a>
+          <!-- Add more dropdown items for other projects -->
+        </div>
+      </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#inicio">Main</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+        <a class="nav-link" href="#sobre-mi">About me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#proyectos">Proyectos</a>
+        <a class="nav-link" href="#bio">Bio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contacto">Contacto</a>
+        <a class="nav-link" href="#proyectos">Projects</a>
       </li>
     </ul>
   </div>
@@ -65,6 +82,29 @@
     </div>
   </section>
 
+<!-- Bio -->
+<section id="bio" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">My bio</h2>
+      <div class="row">
+        <!-- Right column for the bio text -->
+        <div class="col-md-6">
+          <p class="lead">My name is Juan Murillo, Full stack software developer. Studied software development in the University "Universidad Andina del Cusco (UAC)", with more than 15 years following this passionate career.</p>
+          <p class="lead">Continuing my studies, I'm about to finish "Fullstack development with MERN", by Emeritus-MIT. An online course that teaches all the basics required to develop a web environment from scratch to production, using top technologies from nowadays.</p>
+          <p>Feel free to visit my <a href="https://www.github.com/granjalf">My GitHub repository</a></p>
+          <p>Also check my <a href="https://www.linkedin.com/in/juan-oscar-murillo-nu%C3%B1ez-del-prado/">LinkedIn.</a></p>
+          <p>My email: granjalf@hotmail.com</p>
+        </div>
+        <!-- Left column for the picture -->
+        <div class="col-md-6 mb-4">
+            <div class="circle-container">
+                <img src="./images/photo.jpg" class="img-fluid" alt="My Picture">
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
 <!-- Proyectos -->
 <section id="proyectos" class="py-5">
   <div class="container">
@@ -83,7 +123,7 @@
           </div>
           <!-- Pie de la tarjeta -->
           <div class="card-footer text-right">
-            <a href="https://granjalf.github.io/pacman/" class="btn btn-primary">Project page</a>
+            <a href="pacman.html" class="btn btn-primary">Project page</a>
           </div>
         </div>
       </div>
@@ -100,7 +140,7 @@
           </div>
           <!-- Pie de la tarjeta -->
           <div class="card-footer text-right">
-            <a href="https://granjalf.github.io/mapschooltracker" class="btn btn-primary">Project page</a>
+            <a href="mapbox.html" class="btn btn-primary">Project page</a>
           </div>
         </div>
       </div>
@@ -117,7 +157,7 @@
           </div>
           <!-- Pie de la tarjeta -->
           <div class="card-footer text-right">
-            <a href="https://granjalf.github.io/eye" class="btn btn-primary">Project page</a>
+            <a href="eyes.html" class="btn btn-primary">Project page</a>
           </div>
         </div>
       </div>
@@ -138,7 +178,7 @@
               </div>
               <!-- Pie de la tarjeta -->
               <div class="card-footer text-right">
-                <a href="https://granjalf.github.io/tic-tac-toe" class="btn btn-primary">Project page</a>
+                <a href="tictactoe.html" class="btn btn-primary">Project page</a>
               </div>
             </div>
           </div>
@@ -155,7 +195,7 @@
               </div>
               <!-- Pie de la tarjeta -->
               <div class="card-footer text-right">
-                <a href="https://granjalf.github.io/simple-atm-exercise/" class="btn btn-primary">Project page</a>
+                <a href="atm.html" class="btn btn-primary">Project page</a>
               </div>
             </div>
           </div>
@@ -172,7 +212,7 @@
               </div>
               <!-- Pie de la tarjeta -->
               <div class="card-footer text-right">
-                <a href="https://granjalf.github.io/spa-example/" class="btn btn-primary">Project page</a>
+                <a href="spa-example.html" class="btn btn-primary">Project page</a>
               </div>
             </div>
           </div>
@@ -193,7 +233,7 @@
               </div>
               <!-- Pie de la tarjeta -->
               <div class="card-footer text-right">
-                <a href="https://granjalf.github.io/juan-user-app" class="btn btn-primary">Project page</a>
+                <a href="juan-user-app.html" class="btn btn-primary">Project page</a>
               </div>
             </div>
           </div>
@@ -210,7 +250,7 @@
               </div>
               <!-- Pie de la tarjeta -->
               <div class="card-footer text-right">
-                <a href="https://granjalf.github.io/fetch_anime_data" class="btn btn-primary">Project page</a>
+                <a href="fetch-anime-data.html" class="btn btn-primary">Project page</a>
               </div>
             </div>
           </div>
@@ -222,11 +262,10 @@
 <!-- Contacto -->
 <section id="contacto" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-4">Contact me</h2>
+    <h2 class="text-center mb-4">The end?</h2>
     <div class="row">
       <div class="col-md-6 mx-auto">
-        Under construction
-        <!-- Formulario de contacto o simplemente tu dirección de correo electrónico -->
+        
       </div>
     </div>
   </div>
